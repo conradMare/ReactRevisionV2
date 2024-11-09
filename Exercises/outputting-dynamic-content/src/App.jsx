@@ -11,9 +11,9 @@ export function User() {
   return (
     <div id="user" data-testid="user">
       <h2>
-        TODO: FIRST NAME LAST NAME
+        {userData.firstName} {userData.lastName}
       </h2>
-      <p>TODO: TITLE</p>
+      <p>{userData.title}</p>
     </div>
   );
 }
