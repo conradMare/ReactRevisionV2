@@ -1,8 +1,8 @@
-export function CourseGoal() {
+export function CourseGoal({ title, description }) {
   return (
     <li>
-      <h2>TITLE</h2>
-      <p>DESCRIPTION</p>
+      <h2>{title}</h2>
+      <p>{description}</p>
     </li>
   );
 }
@@ -15,6 +15,14 @@ function App() {
       <ul>
         {/* OUTPUT AT LEAST TWO CourseGoal components here */}
         {/* One of them should have a title of “Learn React” and a description of “In-depth” */}
+        <CourseGoal
+          title="Learn React"
+          description="In-depth."
+        />
+        <CourseGoal
+          title="Master React"
+          description="Get a job as a React Dev and change the world for the better."
+        />
       </ul>
     </div>
   );
