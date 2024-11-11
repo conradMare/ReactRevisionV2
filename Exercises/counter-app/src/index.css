@@ -1,0 +1,9 @@
+* {
+  text-align: center;
+}
+
+.counter {
+  border: black;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(114, 114, 206), white);
+}
