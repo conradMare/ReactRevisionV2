@@ -1,9 +1,10 @@
 import Card from "./components/Card";
 
-function App() {
+export default function App() {
   return (
     <div id="app">
-      <h1>Available Experts</h1>
+      <h1 style={{ color: 'black', textAlign: 'center' }}>Available Experts</h1>
+      <hr />
       <Card name="Anthony Blake">
         <p>
           Blake is a professor of Computer Science at the University of
@@ -26,5 +27,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
