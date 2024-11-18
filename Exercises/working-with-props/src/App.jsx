@@ -14,7 +14,7 @@ function App() {
         />
         <CourseGoal
           title="Master React"
-          description="Get a job as a React Dev and change the world for the better."
+          description="Change the world."
         />
       </ul>
     </div>
