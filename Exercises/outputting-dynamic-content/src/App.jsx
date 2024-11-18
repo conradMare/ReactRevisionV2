@@ -1,10 +1,5 @@
 import React from 'react';
-
-export const userData = {
-  firstName: 'Maximilian', // feel free to replace the name value
-  lastName: 'Schwarzmüller', // feel free to replace the name value
-  title: 'Instructor', // feel free to replace the title value
-};
+import { userData } from './userData.js';
 
 // Edit the User component code to output the userData data
 export function User() {
