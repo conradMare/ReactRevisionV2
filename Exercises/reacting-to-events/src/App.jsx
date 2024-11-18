@@ -2,11 +2,7 @@
 // Change them to any values of your choice (except loggedIn => that should be changed to true)
 // You DON'T need to fetch the values entered into the <input /> fields
 // You'll learn about that later in the course - for the moment, those fields are just there to look good :-)
-export const user = {
-  email: '',
-  password: '',
-  loggedIn: false,
-};
+import { user } from "./user.js";
 
 // Please note: The login does not actually work!
 // This exercise is just about practicing event handling
