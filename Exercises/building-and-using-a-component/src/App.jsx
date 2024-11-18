@@ -1,14 +1,9 @@
 import React from 'react';
+import MainGoal from './components/MainGoal.jsx';
 
 // DEFINE YOUR COMPONENT HERE
 // IMPORTANT: Add "export" in front of your component - otherwise the automated tests won't work
 // ...
-
-export function MainGoal() {
-  return (
-    <p>Main goal: Master React</p>
-  )
-}
 
 // DO NOT EDIT THE APP COMPONENT NAME OR CONTENT
 // Except for outputting your custom component
