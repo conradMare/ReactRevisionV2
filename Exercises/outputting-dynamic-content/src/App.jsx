@@ -18,7 +18,7 @@ function App() {
   return (
     <div id="app">
       <h1>Time to Practice</h1>
-      <p>Welcome on board of this course! You got this 💪</p>
+      <p>Welcome on board to this course! You got this 💪</p>
       <User />
     </div>
   );
