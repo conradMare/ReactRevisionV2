@@ -13,6 +13,7 @@ function App() {
     user.password = '1234567890';
     user.loggedIn = true;
   }
+
   return (
     <div id="app">
       <h1>User Login</h1>
