@@ -1,11 +1,10 @@
-export const user = {
-  name: '',
-};
+import { user } from "./user.js";
 
 function App() {
   // Your goal: This function should be called WITH A VALUE for name when the <button> is clicked
   function handleCreateUser(name) {
     user.name = name;
+    console.log(name);
   }
 
   return (
@@ -18,7 +17,7 @@ function App() {
       </p>
 
       <p id="actions">
-        <button>Create User</button>
+        <button onClick={() => handleCreateUser('user')}>Create User</button>
       </p>
     </div>
   );
