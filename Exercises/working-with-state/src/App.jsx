@@ -9,11 +9,19 @@
 // Add a state value to the existing App component function and make
 // sure the state value is both updated upon button clicks and output as part of the JSX code.
 
+import { useState } from "react";
+
 export default function App() {
+  const [price, setPrice] = useState(100);
+
+  function handleDiscount() {
+    setPrice(75);
+  }
+
   return (
     <div>
-      <p data-testid="price">$100</p>
-      <button>Apply Discount</button>
+      <p data-testid="price">${price}</p>
+      <button onClick={handleDiscount}>Apply Discount</button>
     </div>
   );
 }
