@@ -2,6 +2,21 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 3rem;
-  background-color: #2d2c2c;
+  background: linear-gradient(90deg, #ffffff, #0ae9d7);
   color: #959090;
+}
+
+.app {
+  font-size: 5rem;
+  color: #2d2c2c;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.app-button {
+  padding: 20px;
+  margin: 10px;
+  background-color: #2d2c2c;
+  color: white;
 }

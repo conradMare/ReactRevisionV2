@@ -19,9 +19,9 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="app">
       <p data-testid="price">${price}</p>
-      <button onClick={handleDiscount}>Apply Discount</button>
+      <button className="app-button" onClick={handleDiscount}>Apply Discount</button>
     </div>
   );
 }
