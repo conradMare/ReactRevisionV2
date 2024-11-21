@@ -3,14 +3,14 @@ import Footer from "./components/Footer.jsx";
 import CoreConcept from "./components/CoreConcept.jsx";
 import { CORE_CONCEPTS } from "./data.js";
 import TabButton from "./components/TabButton.jsx";
+import { useState } from "react";
 
 function App() {
-  let tabContent = 'Please click a button';
+  const [selectedTopic, setSelectedTopic] = useState('Please click a button');
 
   function handleSelect(selectedButton) {
-    // selectedButton => 'Components', 'JSX', 'Props', 'State'
-    tabContent = selectedButton;
-    console.log(tabContent);
+    setSelectedTopic(selectedButton);
+    // console.log(selectedTopic);
   }
 
   console.log('APP COMPONENT RENDERING');
@@ -46,7 +46,7 @@ function App() {
             <TabButton onSelect={() => handleSelect('props')}>Props</TabButton>
             <TabButton onSelect={() => handleSelect('state')}>State</TabButton>
           </menu>
-          {tabContent}
+          {selectedTopic}
         </section>
       </main>
       <Footer />
