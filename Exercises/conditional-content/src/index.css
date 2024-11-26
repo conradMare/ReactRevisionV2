@@ -2,8 +2,8 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 3rem;
-  background-color: #2d2c2c;
-  color: #959090;
+  background: linear-gradient(90deg, #fff, rgb(83, 246, 255));
+  color: #525252;
   text-align: center;
 }
 
@@ -11,9 +11,9 @@ body {
   margin: 3rem auto;
   padding: 1rem;
   width: 15rem;
-  border: 2px solid #dd3562;
-  background-color: #776167;
-  color: white;
+  border: 5px solid #ff769b;
+  background-color: #949494;
+  color: rgb(255, 255, 255);
 }
 
 #alert button {
@@ -21,7 +21,14 @@ body {
   border: none;
   padding: 0.5rem 1.5rem;
   background-color: 540218;
-  color: white;
+  color: rgb(245, 123, 123);
   border-radius: 4px;
   cursor: pointer;
+}
+
+#delete-button {
+  margin: 5px;
+  padding: 15px;
+  border: 3px solid rgb(148, 148, 148);
+  border-radius: 4px;
 }

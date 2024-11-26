@@ -28,7 +28,7 @@ export default function App() {
           <button onClick={proceedHandler}>Proceed</button>
         </div>
       }
-      <button onClick={deleteHandler}>Delete</button>
+      <button id="delete-button" onClick={deleteHandler}>Delete</button>
     </div>
   );
 }
