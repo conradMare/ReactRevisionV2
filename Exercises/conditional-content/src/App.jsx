@@ -4,15 +4,31 @@
 // Inside that warning dialog, another button allows users to dismiss the warning (i.e., remove the warning box from the screen).
 
 // don't change the Component name "App"
+
+import { useState } from "react";
+
 export default function App() {
+
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  function deleteHandler() {
+    setIsDeleting(true);
+  }
+
+  function proceedHandler() {
+    setIsDeleting(false);
+  }
+
   return (
     <div>
-      <div data-testid="alert" id="alert">
-        <h2>Are you sure?</h2>
-        <p>These changes can not be reverted!</p>
-        <button>Proceed</button>
-      </div>
-      <button>Delete</button>
+      {isDeleting &&
+        <div data-testid="alert" id="alert">
+          <h2>Are you sure?</h2>
+          <p>These changes can not be reverted!</p>
+          <button onClick={proceedHandler}>Proceed</button>
+        </div>
+      }
+      <button onClick={deleteHandler}>Delete</button>
     </div>
   );
 }
