@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 3rem;
-  background: linear-gradient(90deg, #fff, rgb(83, 246, 255));
+  background: linear-gradient(90deg, #ffffff, rgb(83, 246, 255));
   color: #525252;
   text-align: center;
 }
@@ -20,7 +20,7 @@ body {
   font: inherit;
   border: none;
   padding: 0.5rem 1.5rem;
-  background-color: 540218;
+  background-color: white;
   color: rgb(245, 123, 123);
   border-radius: 4px;
   cursor: pointer;
