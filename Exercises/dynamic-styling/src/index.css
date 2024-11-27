@@ -2,11 +2,19 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 3rem;
-  background-color: #2d2c2c;
-  color: #959090;
+  background-color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 
+.app {
+  border: 3px solid rgb(172, 172, 172);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(0, 238, 255, 0.608), white);
+}
+
 .active {
-  color: red;
+  color: rgb(209, 153, 21);
 }
