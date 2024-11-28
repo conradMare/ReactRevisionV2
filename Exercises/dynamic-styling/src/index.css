@@ -12,9 +12,9 @@ body {
   border-radius: 5px;
   margin: 20px;
   padding: 20px;
-  background: linear-gradient(90deg, rgba(0, 238, 255, 0.608), white);
+  background: linear-gradient(90deg, rgba(26, 233, 248, 0.608), white);
 }
 
 .active {
-  color: rgb(209, 153, 21);
+  color: rgb(140, 102, 12);
 }
