@@ -9,12 +9,7 @@
 import React from 'react';
 
 import Todo from './components/Todo.jsx';
-
-export const DUMMY_TODOS = [
-  'Learn React',
-  'Practice React',
-  'Profit!'
-];
+import { DUMMY_TODOS } from './dummyData.js';
 
 // don't change the Component name "App"
 export default function App() {
