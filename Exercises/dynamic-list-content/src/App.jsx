@@ -6,8 +6,6 @@
 // provided to you (which must not be changed!) to a list of JSX elements (<Todo> elements to be precise).
 // Every Todo component item must receive and output the todo text via a prop called text.
 
-import React from 'react';
-
 import Todo from './components/Todo.jsx';
 import { DUMMY_TODOS } from './dummyData.js';
 
